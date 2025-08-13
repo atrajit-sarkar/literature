@@ -1,0 +1,81 @@
+# Site settings
+title: Atrajit | Poems & Literature
+email: kobi@atrajit.xyz
+description: >-
+  A minimalist poetry and literature portfolio — verses, fragments, and reflections.
+  Read selected poems, drafts, and notes from the writer's desk.
+baseurl: "" # Only if using project site, leave empty for personal site
+url: "https://www.atrajit.xyz"
+
+# Author information
+author:
+  name: Atrajit
+  email: kobi@atrajit.xyz
+  tagline: "Poems | Prose | Notes"
+  subtitle: "A quiet place for words"
+  bio: >-
+    Poems that linger. Lines that listen. A small portfolio of verses and notes.
+
+# Tech Stack - Removed since this is now a chat storage site
+# Keeping the structure for potential future features
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Kramdown settings for math
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Navigation - Minimal for literature portfolio
+navigation:
+  - title: Home
+    url: /
+    icon: "home"
+  - title: Poems
+    url: /posts/
+    icon: "feather"
+
+# Theme settings - Literature palette
+theme_color: "#2f3e46"
+accent_color: "#c9a227"
+
+# Social links
+social:
+  email: kobi@atrajit.xyz
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: page
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Ads completely removed for clean experience

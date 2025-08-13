@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="page-content">
+	<header class="page-header">
+		<h1 class="page-title">{{ page.title }}</h1>
+		{% if page.subtitle %}
+		<p class="page-subtitle">{{ page.subtitle }}</p>
+		{% endif %}
+		<div class="post-meta">
+			<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+			{% if page.categories and page.categories.size > 0 %}
+			<span class="post-categories">
+				{% for category in page.categories %}
+				<span class="category">{{ category }}</span>
+				{% endfor %}
+			</span>
+			{% endif %}
+		</div>
+	</header>
+	<div class="page-body poem-body">
+		{{ content }}
+	</div>
+</article>
