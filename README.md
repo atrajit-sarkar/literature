@@ -147,34 +147,96 @@ Your beautiful poem content goes here...
 
 ### 🌈 **Available Card Colors**
 
-| Color | Preview | Usage |
-|-------|---------|-------|
-| `default` | 🔵 Blue-Purple Gradient | `card_color: "default"` |
-| `purple` | 🟣 Purple Gradient | `card_color: "purple"` |
-| `green` | 🟢 Green Gradient | `card_color: "green"` |
-| `blue` | 🔵 Blue Gradient | `card_color: "blue"` |
-| `orange` | 🟠 Orange Gradient | `card_color: "orange"` |
-| `pink` | 🩷 Pink Gradient | `card_color: "pink"` |
-| `red` | 🔴 Red Gradient | `card_color: "red"` |
-| `yellow` | 🟡 Yellow Gradient | `card_color: "yellow"` |
-| `indigo` | 🟣 Indigo Gradient | `card_color: "indigo"` |
-| `gray` | ⚫ Gray Gradient | `card_color: "gray"` |
-| `teal` | 🟢 Teal Gradient | `card_color: "teal"` |
-| `slate` | ⚫ Slate Gradient | `card_color: "slate"` |
-| `black` | ⚫ Black Gradient | `card_color: "black"` |
-| `light` | ⚪ Light Theme | `card_color: "light"` |
+#### 🎨 **Basic Colors**
+| Color | Preview | Usage | Description |
+|-------|---------|-------|-------------|
+| `default` | 🔵 Blue-Purple Gradient | `card_color: "default"` | Default blue-purple gradient |
+| `purple` | 🟣 Purple Gradient | `card_color: "purple"` | Rich purple gradient |
+| `green` | 🟢 Green Gradient | `card_color: "green"` | Fresh green gradient |
+| `blue` | 🔵 Blue Gradient | `card_color: "blue"` | Ocean blue gradient |
+| `orange` | 🟠 Orange Gradient | `card_color: "orange"` | Warm orange gradient |
+| `pink` | 🩷 Pink Gradient | `card_color: "pink"` | Soft pink gradient |
+| `red` | 🔴 Red Gradient | `card_color: "red"` | Bold red gradient |
+| `yellow` | 🟡 Yellow Gradient | `card_color: "yellow"` | Bright yellow gradient |
+| `indigo` | 🟣 Indigo Gradient | `card_color: "indigo"` | Deep indigo gradient |
+| `gray` | ⚫ Gray Gradient | `card_color: "gray"` | Neutral gray gradient |
+| `teal` | � Teal Gradient | `card_color: "teal"` | Calm teal gradient |
+| `slate` | ⬛ Slate Gradient | `card_color: "slate"` | Professional slate gradient |
+| `black` | ⚫ Black Gradient | `card_color: "black"` | Elegant black gradient |
+| `light` | ⚪ Light Theme | `card_color: "light"` | Clean light background |
+
+#### ✨ **Extended Colors**
+| Color | Preview | Usage | Description |
+|-------|---------|-------|-------------|
+| `rose` | 🌹 Rose Gradient | `card_color: "rose"` | Romantic rose gradient |
+| `emerald` | 💚 Emerald Gradient | `card_color: "emerald"` | Precious emerald gradient |
+| `sky` | 🌌 Sky Gradient | `card_color: "sky"` | Clear sky gradient |
+| `violet` | 💜 Violet Gradient | `card_color: "violet"` | Rich violet gradient |
+| `amber` | 🟨 Amber Gradient | `card_color: "amber"` | Warm amber gradient |
+| `cyan` | 🔵 Cyan Gradient | `card_color: "cyan"` | Electric cyan gradient |
+| `lime` | 🍃 Lime Gradient | `card_color: "lime"` | Fresh lime gradient |
+| `fuchsia` | 💖 Fuchsia Gradient | `card_color: "fuchsia"` | Vibrant fuchsia gradient |
+| `stone` | 🪨 Stone Gradient | `card_color: "stone"` | Natural stone gradient |
+
+#### 🌈 **Special Gradients**
+| Color | Preview | Usage | Description |
+|-------|---------|-------|-------------|
+| `gradient-sunset` | 🌅 Sunset Gradient | `card_color: "gradient-sunset"` | Beautiful sunset colors |
+| `gradient-ocean` | 🌊 Ocean Gradient | `card_color: "gradient-ocean"` | Deep ocean waves |
+| `gradient-forest` | 🌲 Forest Gradient | `card_color: "gradient-forest"` | Mystical forest greens |
 
 ### 🎭 **Card Style Options**
 
-```yaml
-# Gradient style (default)
-card_style: "gradient"   # or omit for default
+#### 📐 **Basic Styles**
+| Style | Preview | Usage | Description |
+|-------|---------|-------|-------------|
+| `default` | 🎨 Gradient | `card_style: "default"` | Standard gradient background |
+| `minimal` | 📄 Clean | `card_style: "minimal"` | Clean minimal design with borders |
+| `glass` | 🪟 Glass | `card_style: "glass"` | Modern glassmorphism effect |
 
-# Glass effect
+#### ✨ **Advanced Styles**
+| Style | Preview | Usage | Description |
+|-------|---------|-------|-------------|
+| `bordered` | 🔲 Bordered | `card_style: "bordered"` | Transparent with colored border |
+| `shadow` | 🌑 Shadow | `card_style: "shadow"` | Deep shadow elevation |
+| `neon` | ⚡ Neon | `card_style: "neon"` | Glowing neon border effect |
+| `embossed` | 🏛️ Embossed | `card_style: "embossed"` | 3D embossed appearance |
+| `gradient-border` | 🌈 Gradient Border | `card_style: "gradient-border"` | Animated gradient border |
+
+### 🎨 **Style Combinations**
+
+You can combine any color with any style:
+
+```yaml
+# Examples of combinations
+card_color: "rose"
 card_style: "glass"
 
-# Minimal design  
-card_style: "minimal"
+card_color: "gradient-sunset"
+card_style: "neon"
+
+card_color: "emerald"
+card_style: "shadow"
+
+card_color: "violet"
+card_style: "embossed"
+```
+
+### 🖼️ **Complete Card Setup Example**
+
+```yaml
+---
+layout: post
+title: "My Beautiful Poem"
+date: 2025-08-13
+categories: [Poetry, Nature]
+tags: [love, beauty, dreams]
+card_color: "gradient-sunset"    # Choose from 25+ colors
+card_style: "glass"              # Choose from 8 styles
+excerpt: "A brief description of your poem"
+---
+
+Your poem content here...
 ```
 
 ### 🖼️ **Adding Images**
