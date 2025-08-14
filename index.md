@@ -87,22 +87,30 @@ layout: home
         </div>
         
         <div class="features-grid">
+        <a href="https://amzn.in/d/dzA6wVB">
             <div class="feature-card">
                 <div class="feature-icon">
-                    <span>�</span>
+                    <img src="https://m.media-amazon.com/images/I/41E+hFfW0hS._SY466_.jpg"
+                        alt="A person sits in a dimly lit, elegant room reading a book. The setting features ornate furniture, a window with sunlight streaming in, and a lamp on a side table. The book cover displays the title Silhouette of Words An Anthology. The emotional tone is contemplative and literary. At the bottom, contributor names are listed: Angelica, Aniket Modi, Asha Namdian, Atrajit Sarkar, Namrata Ka, Sayan Samir, Shilpa Pawar, Shiladri Swarnya, Vidyansh Chakar, and Avadesh Nikade."
+                        width="120"
+                        height="180"
+                        style="object-fit: cover; border-radius: 8px;"
+                    />
                 </div>
-                <h3>Poems</h3>
-                <p>Selected verses — final, fragment, and in-between.</p>
-            </div>
-            
+                <h3>My Book</h3>
+                <p>Selected verses — final, fragment, and in-between.</p>     </div>
+            </a>
             <div class="feature-card">
                 <div class="feature-icon">
-                    <span>�</span>
+                    <span><img src="https://s3.ap-southeast-1.amazonaws.com/mirakee.com/users/avatars/000/752/464/small/2c785175612215eb4c233d9663b19fc4.jpeg" width="80" height="100"></span>
                 </div>
-                <h3>Notes</h3>
-                <p>Short prose, annotations, drafts, and stray thoughts.</p>
-            </div>
-            
+                <h3>Follow Me</h3>
+                <p>
+                    Read poems also on 
+                    <a href="https://www.miraquill.com/user.html?username=poem_1729" target="_blank" rel="noopener">Miraquill</a>.
+                </p>
+                <img src="https://dxdx43mgf1h6b.cloudfront.net/assets/logo-9a513a33120f75402fcc97fc12d6ed216956639df0aa1a02e0ba017b9a06d3a8.png" width="100" height="140">
+            </div>     
             <div class="feature-card">
                 <div class="feature-icon">
                     <span>🔍</span>
