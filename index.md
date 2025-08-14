@@ -113,20 +113,26 @@ layout: home
             </div>     
             <div class="feature-card">
                 <div class="feature-icon">
-                    <span>🔍</span>
+                    <span><img src="https://media.images.yourquote.in/user/large/0/0/3/735/oJMJ1617.jpg" alt="YourQuote Logo" width="80" height="80"></span>
                 </div>
-                <h3>Simple</h3>
-                <p>Clean reading experience with focus on the words.</p>
-            </div>
-            
+                <h3>Follow on YourQuote</h3>
+                <p>
+                    Read and follow my poems also on 
+                    <a href="https://www.yourquote.in/poem-1729-ciece/quotes" target="_blank" rel="noopener">YourQuote</a>.
+                </p>
+                <img src="https://play-lh.googleusercontent.com/88J41_eIH5wogW1bPja_tsCySaQkg9E-w_KltDOdHKWJBNgXqcpoMHUIdOwwRsZxlcM=w240-h480-rw" alt="YourQuote Logo" width="80" height="80">
+            </div>     
             <div class="feature-card">
                 <div class="feature-icon">
-                    <span>📚</span>
+                    <span><img src="https://literaturesmagic.home.blog/wp-content/uploads/2020/04/cropped-download-1.jpg" alt="YourQuote Logo" width="140" height="150"></span>
                 </div>
-                <h3>Collected</h3>
+                <h3>Literature's Magic</h3>
                 <p>All pieces gathered in one place, easy to browse.</p>
-            </div>
-        </div>
+                <p>
+                    Also read poem blogs 
+                    <a href="https://literaturesmagic.home.blog/" target="_blank" rel="noopener">here</a>.
+                </p>
+            </div>     </div>
     </div>
 </section>
 
